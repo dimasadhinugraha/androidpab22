@@ -4,13 +4,30 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-
+<!--    Label -->
     <TextView
-        android:id="@+id/txthello"
+        android:id="@+id/txtlabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Helloworld!"
+        android:layout_marginBottom="20dp"
+        android:text="Masukan Nama Anda"
         android:textColor="#000000"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
+    
+    <!--     Text Input-->
+    <EditText
+        android:id="@+id/input_nama"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Ketik Nama Anda"
+        android:inputType="textPersonName" />
+
+    <!--    Tombol-->
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
 </LinearLayout>
 
