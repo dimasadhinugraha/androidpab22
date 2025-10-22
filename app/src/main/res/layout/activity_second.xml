@@ -2,14 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:padding="10dp"
     android:orientation="vertical">
-    <!--    Label -->
-    <TextView
-        android:id="@+id/txtResult"
-        android:layout_width="wrap_content"
+
+<!-- button   -->
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textSize="60sp" />
+        android:text="Tambah data mahasiswa"/>
+
+    <ListView
+        android:id="@+id/list_mhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
